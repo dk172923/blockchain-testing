@@ -1,0 +1,7 @@
+Step 1: Open a teminal and go to smart-contract folder in the project.
+Step 2: Run "npm i && npx hardhat node"
+Step 3: In a new terminal run "npx hardhat run scripts/deploy.js --network localhost"
+Step 4: Copy the contract address from terminal and paste it in the web-app-1/utils/contract.js -> CONTRACT_ADDRESS
+Step 5: In a new terminal go into web-app-1 directory
+Step 6: Run npm i && npm run dev
+Step 7: Open a browser and go to https://localhost:3000
