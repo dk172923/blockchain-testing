@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; // Update after deployment
+const CONTRACT_ADDRESS = "0x9f5Bc80b0EaD3BC2CD125bcD40240A6fcd1e270f"; // Update after deployment
 const ABI = [
   "function storeHash(bytes32 hash) public",
   "function verifyHash(bytes32 hash) public view returns (bool)",

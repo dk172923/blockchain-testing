@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     const init = async () => {
       try {
-        const provider = new ethers.JsonRpcProvider("http://127.0.0.1:8545");
+        const provider = new ethers.JsonRpcProvider("http://127.0.0.1:7545");
         const signer = await provider.getSigner();
         const _contract = getContract(signer);
         setContract(_contract);
